@@ -1,16 +1,18 @@
 〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
- 🌸𝙎𝘼𝙉𝘾𝙃𝙊𝙆𝙐𝙄𝙉 𝙭 𝙇𝙊𝙁𝙏🌸 :
-[💬] The-Goddess Aesther
-👑 𝗡𝗔𝗠𝗘 : 𝖠𝗇𝗃𝖺
-🌟 𝗔𝗟𝗜𝗔𝗦𝗘𝗦 : 𝖠𝖾𝗌𝗍𝗁𝖾𝗋
+#🌸𝙎𝘼𝙉𝘾𝙃𝙊𝙆𝙐𝙄𝙉 𝙭 𝙇𝙊𝙁𝙏🌸 :
+#[💬] The-Goddess Aesther
+#👑 𝗡𝗔𝗠𝗘 : 𝖠𝗇𝗃𝖺
+#🌟 𝗔𝗟𝗜𝗔𝗦𝗘𝗦 : 𝖠𝖾𝗌𝗍𝗁𝖾𝗋
 
 # PROJECT CREATOR</h1>
-<img src="https://i.ibb.co/Fz8gXS9/image.jpg8" alt="banner">
+<img src="https://i.postimg.cc/SxnNnQ3g/c709b747397dba5662a2361c9f29bb89.gif" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 
 
 # FB PROFILE PHOTO</h1>
-<img src="https://i.ibb.co/stQtR0M/image.jpg" alt="banner">
+<img src="https://i.postimg.cc/bvQPnZT9/received-2743704165803818.jpg" alt="banner">
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> 
+
+ #𝗙𝗕 𝗟𝗜𝗡𝗞 : https://www.facebook.com/thegodess.aesther
  〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
 🌹 **Bienvenue dans la cour de l'élégance et de la grandeur, où réside Anja, connue sous le nom d'Aesther. Sa grâce et sa noblesse illuminent chaque pièce où elle passe, et son aura majestueuse en impose à tous ceux qui ont le privilège de la côtoyer.
 
