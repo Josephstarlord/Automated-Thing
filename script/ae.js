@@ -25,7 +25,8 @@ module.exports.run = async function({ api, event, args }) {
     const input = args.join(' ');
     
     if (!input) {
-        api.sendMessage(sticker: "387545578037993" }, event.threadID);
+        // Send only the sticker if no input is provided
+        api.sendMessage({ attachment: "387545578037993" }, event.threadID);
         api.setMessageReaction("🌐", event.messageID, () => {}, true);
         return;
     }
@@ -38,11 +39,11 @@ module.exports.run = async function({ api, event, args }) {
         // Replace characters with stylized characters from fonts
         response = response.split('').map(char => fonts[char] || char).join('');
         
-        api.sendMessage(`[📑] ᗩEᔕTᕼEᖇ :\n\n${response}`, event.threadID, event.messageID);
+        api.sendMessage({ body: `[📑] ᗩEᔕTᕼEᖇ :\n\n${response}` }, event.threadID, event.messageID);
         api.setMessageReaction("🌊", event.messageID, () => {}, true);
         
     } catch (error) {
         console.error('Error:', error);
-        api.sendMessage('⚠️ Error Loading ⚠️', event.threadID, event.messageID);
+        api.sendMessage({ body: '⚠️ Error Loading ⚠️' }, event.threadID, event.messageID);
     }
 };
