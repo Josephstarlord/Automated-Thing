@@ -25,8 +25,8 @@ module.exports.run = async function ({ api, event, args }) {
         });
 
         try {
-            const response = await axios.get(`https://api.kenliejugarap.com/freegpt4o8k/?question=${encodeURIComponent(q)}`);
-            const answer = response.data.response;
+            const response = await axios.get(`https://deku-rest-api.gleeze.com/new/gpt-3_5-turbo?prompt=${encodeURIComponent(q)}`);
+            const answer = response.data.result.reply;
 
             const formattedResponse = `[💬] ᗩᗴ :\n\n${answer}\n\n⚪🔵🔴`;
 
