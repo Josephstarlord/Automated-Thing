@@ -25,8 +25,7 @@ module.exports.run = async function({ api, event, args }) {
     const input = args.join(' ');
     
     if (!input) {
-        // Send only the sticker if no input is provided
-        api.sendMessage({ attachment: "387545578037993" }, event.threadID);
+        api.sendMessage('[📑] ᗩEᔕTᕼEᖇ :\n\n(๑•̀ㅁ•́ฅ✧ 𝗬𝗢𝗢 ?? .', event.threadID, event.messageID);
         api.setMessageReaction("🌐", event.messageID, () => {}, true);
         return;
     }
