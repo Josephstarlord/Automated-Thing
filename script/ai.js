@@ -15,11 +15,11 @@ const fonts = {
 };
 
 module.exports.config = {
-    name: 'ae',
+    name: 'ia',
     version: '2',
     role: 0,
     hasPrefix: false,
-    aliases: ['anja', 's'],
+    aliases: ['anja'],
     description: "Command for AI-generated responses styled with special fonts.",
     usage: "ex : ai [prompt]",
     credits: 'aesther',
