@@ -14,7 +14,7 @@ module.exports.config = {
     version: '2',
     role: 0,
     hasPrefix: false,
-    aliases: ["12", "ia"],
+    aliases: ["12"],
     description: "Command for AI-generated responses styled with special fonts and emojis.",
     usage: "ex : ai [prompt]",
     credits: 'aesther',
@@ -25,7 +25,7 @@ module.exports.run = async function({ api, event, args }) {
     const input = args.join(' ');
     
     if (!input) {
-        api.sendMessage("The sticker ID is 1900014266878027.", event.threadID, event.messageID);
+        api.sendMessage(sticker: "387545578037993" }, event.threadID);
         api.setMessageReaction("🌐", event.messageID, () => {}, true);
         return;
     }
