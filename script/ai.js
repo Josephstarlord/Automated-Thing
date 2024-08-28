@@ -15,7 +15,7 @@ const fonts = {
 };
 
 module.exports.config = {
-    name: 'ia',
+    name: 'ae',
     version: '2',
     role: 0,
     hasPrefix: false,
