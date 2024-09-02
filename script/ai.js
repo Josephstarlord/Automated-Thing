@@ -36,9 +36,9 @@ module.exports.run = async function({ api, event, args }) {
     }
     
     try {
-        const { data } = await axios.get(`https://api.nyxs.pw/ai/gpt?text=${encodeURIComponent(input)}`);
+        const { data } = await axios.get(`https://smfahim.onrender.com/chatfun?question=${encodeURIComponent(input)}`);
         api.setMessageReaction("⭐", event.messageID, () => {}, true);
-        let response = data.result || 'No response received'; // Handling empty response
+        let response = data.gtfun || 'No response received'; // Handling empty response
         
         // Replace characters with stylized characters from fonts
         response = response.split('').map(char => {
