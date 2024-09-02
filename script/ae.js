@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event, args }) {
     try {
         const RolePlay = "Répond à cette question avec une décore d'emoji convenable\n>";
         const { data } = await axios.get(`https://smfahim.onrender.com/hercai?ask=${encodeURIComponent(RolePlay + input)}`);
-        let response = data.response;
+        let response = data.answer;
         
         // Replace characters with stylized characters from fonts
         response = response.split('').map(char => fonts[char] || char).join('');
