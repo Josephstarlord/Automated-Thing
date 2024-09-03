@@ -25,8 +25,8 @@ module.exports.run = async function ({ api, event, args }) {
         });
 
         try {
-            const response = await axios.get(`https://api.nyxs.pw/ai/gpt?text=${encodeURIComponent(q)}`);
-            const answer = response.data.result;
+            const response = await axios.get(`https://sandipbaruwal.onrender.com/gemini?prompt=${encodeURIComponent(q)}`);
+            const answer = response.data.answer;
 
             const formattedResponse = `🌸Sanchokuin🌸
 ━━━━━━━━━━━━━━━━━━
