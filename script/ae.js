@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event, args }) {
     }
     
     try {
-        const RolePlay = "Répond à cette question avec une décore d'emoji convenable\n>";
+        const RolePlay = "";
         const { data } = await axios.get(`https://sandipbaruwal.onrender.com/gemini?prompt=${encodeURIComponent(RolePlay + input)}`);
         let response = data.answer;
         
