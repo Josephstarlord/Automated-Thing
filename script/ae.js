@@ -26,12 +26,12 @@ module.exports.run = async function({ api, event, args }) {
     
     if (!input) {
         api.sendMessage('[📑] ᗩEᔕTᕼEᖇ :\n\n(๑•̀ㅁ•́ฅ✧ 𝗬𝗢𝗢 ?? .', event.threadID, event.messageID);
-        api.setMessageReaction("🌐", event.messageID, () => {}, true);
+        api.setMessageReaction("🌷", event.messageID, () => {}, true);
         return;
     }
     
     try {
-        const RolePlay = "Quand tu répond à cette question ajoutes des emojis convenable :\n\n";
+        const RolePlay = "quand tu répond à cette question ajoutes des emojis convenable :\n\n";
         const { data } = await axios.get(`https://sandipbaruwal.onrender.com/gemini?prompt=${encodeURIComponent(RolePlay + input)}`);
         let response = data.answer;
         
@@ -39,7 +39,7 @@ module.exports.run = async function({ api, event, args }) {
         response = response.split('').map(char => fonts[char] || char).join('');
         
         api.sendMessage({ body: `[📑] ᗩEᔕTᕼEᖇ :\n\n${response}` }, event.threadID, event.messageID);
-        api.setMessageReaction("🌊", event.messageID, () => {}, true);
+        api.setMessageReaction("🌸", event.messageID, () => {}, true);
         
     } catch (error) {
         console.error('Error:', error);
