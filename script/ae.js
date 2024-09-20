@@ -32,8 +32,8 @@ module.exports.run = async function({ api, event, args }) {
     
     try {
         const RolePlay = "quand tu répond à cette question ajoutes des emojis convenable :\n\n";
-        const { data } = await axios.get(`https://sandipbaruwal.onrender.com/gemini?prompt=${encodeURIComponent(RolePlay + input)}`);
-        let response = data.answer;
+        const { data } = await axios.get(`https://api.nyxs.pw/ai/gemini-advance?text=${encodeURIComponent(RolePlay + input)}`);
+        let response = data.result;
         
         // Replace characters with stylized characters from fonts
         response = response.split('').map(char => fonts[char] || char).join('');
