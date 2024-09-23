@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event, args }) {
     try {
         const RolePlay = "quand tu répond à cette question ajoutes des emojis convenable :\n\n";
         const { data } = await axios.get(`https://api.agatz.xyz/api/gemini?message=${encodeURIComponent(RolePlay + input)}`);
-        let response = data.data.result;
+        let response = data.data.answer;
         
         // Replace characters with stylized characters from fonts
         response = response.split('').map(char => fonts[char] || char).join('');
